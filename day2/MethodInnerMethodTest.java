@@ -6,12 +6,12 @@ public class MethodInnerMethodTest
 
 	public String calc(int a, int b, int c){
 		
-		return "Æò±ÕÄ¡ : " + avg(a, b, c);
+		return "Ã†Ã²Â±Ã•Ã„Â¡ : " + avg(a, b, c);
 	}
 
 	public double avg(int a, int b, int c){
 		int result = sum(a, b, c);
-		double result2 = (double)result / 3; // casting ¿¬»ê
+		double result2 = (double)result / 3; // casting Â¿Â¬Â»Ãª
 		return result2;
 	}
 
