@@ -33,7 +33,7 @@ public class MethodTestMain
 	
 		System.out.println("===============================");
 
-		System.out.println(name + "ÀÇ ¾ÏÈ£´Â " + member1.passwd + "ÀÌ°í ³ªÀÌ´Â " + age + ", ½ÅÀåÀº " + height + "ÀÔ´Ï´Ù.");
+		System.out.println(name + "ì˜ ì•”í˜¸ëŠ” " + member1.passwd + "ì´ê³  ë‚˜ì´ëŠ” " + age + ", ì‹ ì¥ì€ " + height + "ì…ë‹ˆë‹¤.");
 
 		System.out.println("===============================");
 
@@ -46,12 +46,12 @@ public class MethodTestMain
 
 		System.out.println("===============================");
 
-		System.out.println("Á¾·á ½Ã°¢ : " + MyUtil.getNowTime());
+		System.out.println("ì¢…ë£Œ ì‹œê° : " + MyUtil.getNowTime());
 		
 		System.out.println("===============================");
 
 		Member member3 = new Member("hacker", "0000", "bigBro", 27, 183.5, 450000);
 
-		System.out.println(member3.name + "ÀÇ Èñ¸Á ¿¬ ºÀ : " + member3.getStrYearSal());
+		System.out.println(member3.name + "ì˜ í¬ë§ ì—° ë´‰ : " + member3.getStrYearSal());
 	}
 }
