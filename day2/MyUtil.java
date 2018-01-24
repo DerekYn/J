@@ -10,7 +10,7 @@ public class MyUtil
 		return today;
 	}
 
-	// --- ¼ıÀÚ¸¦ ÀÔ·Â¹Ş¾Æ ¼¼ÀÚ¸®¸¶´Ù comma(,)¸¦ Âï¾îÁÖ´Â method ---
+	// --- ìˆ«ìë¥¼ ì…ë ¥ë°›ì•„ ì„¸ìë¦¬ë§ˆë‹¤ comma(,)ë¥¼ ì°ì–´ì£¼ëŠ” method ---
 	public static String getMoney(long money) {
 		DecimalFormat df = new DecimalFormat("#,###");
 		String strMoney = df.format(money);
