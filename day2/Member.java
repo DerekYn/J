@@ -1,19 +1,19 @@
 /*
 
-	¡Ø ¸Þ¼Òµå(method)¶õ?
-	-- Å¬·¡½º ¾È¿¡¼­ ±¸ÇöµÇ¾îÁø ÀÏÁ¾ÀÇ ÇÔ¼ö¶ó°í »ý°¢ÇÏ¸é µÈ´Ù.
-	   ¾î¶°ÇÑ ÇàÀ§¸¦ ±¸Ã¼ÀûÀ¸·Î ¼­¼úÇÏ¿© Á¤ÀÇÇÑ °Í
+	â€» ë©”ì†Œë“œ(method)ëž€?
+	-- í´ëž˜ìŠ¤ ì•ˆì—ì„œ êµ¬í˜„ë˜ì–´ì§„ ì¼ì¢…ì˜ í•¨ìˆ˜ë¼ê³  ìƒê°í•˜ë©´ ëœë‹¤.
+	   ì–´ë– í•œ í–‰ìœ„ë¥¼ êµ¬ì²´ì ìœ¼ë¡œ ì„œìˆ í•˜ì—¬ ì •ì˜í•œ ê²ƒ
 
-	-- ¸Þ¼Òµå(method)´Â ¹Ýµå½Ã ¸®ÅÏ Å¸ÀÔÀ» Á¤ÀÇÇØÁÖ¾î¾ß ÇÑ´Ù.
-	   ¸®ÅÏ Å¸ÀÔÀÌ ÀÖÀ¸¸é ±× ¸®ÅÏ Å¸ÀÔ¿¡ ÇØ´çÇÏ´Â Å¸ÀÔ(String, int, double)¸¦ ±â¼úÇÏ°í,
-	   ¸®ÅÏ Å¸ÀÔÀÌ ¾ø´Â ¸Þ¼Òµå(method)¶ó¸é ¸®ÅÏ Å¸ÀÔÀÌ ¾ø´Ù´Â ¶æÀÇ void¸¦ ±â¼úÇÏÀÚ.
+	-- ë©”ì†Œë“œ(method)ëŠ” ë°˜ë“œì‹œ ë¦¬í„´ íƒ€ìž…ì„ ì •ì˜í•´ì£¼ì–´ì•¼ í•œë‹¤.
+	   ë¦¬í„´ íƒ€ìž…ì´ ìžˆìœ¼ë©´ ê·¸ ë¦¬í„´ íƒ€ìž…ì— í•´ë‹¹í•˜ëŠ” íƒ€ìž…(String, int, double)ë¥¼ ê¸°ìˆ í•˜ê³ ,
+	   ë¦¬í„´ íƒ€ìž…ì´ ì—†ëŠ” ë©”ì†Œë“œ(method)ë¼ë©´ ë¦¬í„´ íƒ€ìž…ì´ ì—†ë‹¤ëŠ” ëœ»ì˜ voidë¥¼ ê¸°ìˆ í•˜ìž.
 
-	¡Ø ¸Þ¼Òµå(method)ÀÇ Á¾·ù
+	â€» ë©”ì†Œë“œ(method)ì˜ ì¢…ë¥˜
 
-	  1. ÀÎ½ºÅÏ½º ¸Þ¼Òµå(instance method)
-		 -- °´Ã¼¸í.¸Þ¼Òµå¸í();
-	  2. ½ºÅÂÆ½ ¸Þ¼Òµå(static method == Å¬·¡½º ¸Þ¼Òµå)
-	     -- Å¬·¡½º¸í.¸Þ¼Òµå¸í();
+	  1. ì¸ìŠ¤í„´ìŠ¤ ë©”ì†Œë“œ(instance method)
+		 -- ê°ì²´ëª….ë©”ì†Œë“œëª…();
+	  2. ìŠ¤íƒœí‹± ë©”ì†Œë“œ(static method == í´ëž˜ìŠ¤ ë©”ì†Œë“œ)
+	     -- í´ëž˜ìŠ¤ëª….ë©”ì†Œë“œëª…();
 
 */
 
@@ -67,7 +67,7 @@ public class Member
 	public String setHopeMonthSal(int newHopeMonthSal) {
 		int beforeChangeSal = hopeMonthSal;
 		hopeMonthSal = newHopeMonthSal;
-		return name + "´ÔÀÇ ±âÁ¸ Èñ¸Á¿ù±Þ¿© : " + beforeChangeSal + " ¾ï¿ø¿¡¼­ " + hopeMonthSal + " ¾ï¿øÀ¸·Î º¯°æµÇ¾ú½À´Ï´Ù.";
+		return name + "ë‹˜ì˜ ê¸°ì¡´ í¬ë§ì›”ê¸‰ì—¬ : " + beforeChangeSal + " ì–µì›ì—ì„œ " + hopeMonthSal + " ì–µì›ìœ¼ë¡œ ë³€ê²½ë˜ì—ˆìŠµë‹ˆë‹¤.";
 	}
 
 	public void showInfo(){
