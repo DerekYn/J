@@ -11,6 +11,6 @@ public class CalculatorMain
 		sum = Calculator.hap(20,30);
 		System.out.println(sum);
 
-		System.out.println("Á¾·á ½Ã°¢ : " + MyUtil.getNowTime());
+		System.out.println("ÃÂ¾Â·Ã¡ Â½ÃƒÂ°Â¢ : " + MyUtil.getNowTime());
 	}
 }
