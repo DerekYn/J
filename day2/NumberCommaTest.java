@@ -7,7 +7,7 @@ public class NumberCommaTest
 
 		System.out.println("money : " + money + "won");
 
-		// ¼ıÀÚ·Î µÇ¾îÁø µ¥ÀÌÅÍ¸¦ ¼¼ÀÚ¸® ¸¶´Ù comma(,) Âï¾îÁÖ´Â °´Ã¼
+		// ìˆ«ìë¡œ ë˜ì–´ì§„ ë°ì´í„°ë¥¼ ì„¸ìë¦¬ ë§ˆë‹¤ comma(,) ì°ì–´ì£¼ëŠ” ê°ì²´
 		DecimalFormat df = new DecimalFormat("#,###");
 		String strMoney = df.format(money);
 		System.out.println("strmoney : " + strMoney + "won");
